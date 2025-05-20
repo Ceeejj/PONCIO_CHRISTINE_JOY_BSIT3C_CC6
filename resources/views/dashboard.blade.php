@@ -12,7 +12,8 @@
                     <div class="max-w-md mx-auto">
                         <h2 class="text-2xl font-bold mb-6 text-gray-800">Share Your Feedback</h2>
 
-                        <form class="space-y-6">
+                        <form id="feedbackForm"  class="space-y-6">
+                        @csrf
                             <div>
                                 <label for="name" class="block text-sm font-medium text-gray-700">Your Name</label>
                                 <input type="text" id="name" name="name" required
